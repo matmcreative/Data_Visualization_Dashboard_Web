@@ -1,0 +1,20 @@
+body {
+    background-color:#ededed
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+.navbar-brand{
+    color:white;
+    background-color:lightseagreen;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.display-4{
+    font-size: 36px;
+    color:lightseagreen;
+}
