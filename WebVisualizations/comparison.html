@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Bootstrap Visualization</title>
+  <title>Bootstrap Visualization - Comparisons</title>
   <link rel="stylesheet"
    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
@@ -41,52 +41,52 @@
       </ul>
     </div>
   </nav>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-7 col-md-12">     
-        <div class="box" style="padding-bottom: 10px; height:700px;">
-          <h2 class="display-2">Summary: Latitude vs. X</h2>
-          <hr>
-          <img src="images/Fig1.png" style="width: 100%;" alt="Max Temperature Graph">
-          <p>This dashboard is a data visulaization tool created to support weather changes analysis based on geographical distance from the equator.The analysis revealed that the closer to the equator the more rain and higher temprature we get as well as other 
-          accompanying weather conditions. This analytical dashboard is based on data obtained from OpenWeatherMap API to create a dataset on over 500 cities.</p> 
-          <p>Matplotlib was deployed to plot weather data based on latitude, temperature, cloudiness, wind speed, & humidity as an integral parts of the analysis & interpertations.</p>
-        </div>
-      </div>
-      <div class="col-lg-5 col-md-12">
-        <div class="box">
-          <h3 class="display-3">Visualizations</h3>
-          <div class="container">
-            <div class="row" style="padding-bottom: 30px;">
-              <div class="col-6">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="box" style="padding-bottom: 10px; height:1000px;">
+        <h2 class="display-2">Comparison: Latitude vs. X</h2>
+        <hr>
+        <p>Click any plot to get an in-depth analysis.</p>
+        <div class="container" style="padding-bottom: 40px;">
+          <div class="row">
+            <div class="col-lg-6" style="padding: 30px;">
+              <div class="display-3">vs. Max Temperature</div>
                 <a href="maxtemp.html">
-                <img src="images/Fig1.png" class="visualization" alt="Max Temperature">
+                <img class="visualization" src="images/Fig1.png" alt="Max Temperature">
                 </a>
               </div>
-              <div class="col-6">
-                <a href="humidity.html">
-                <img src="images/Fig2.png" class="visualization" alt="Humidity">
-                </a>
-              </div>
-              <div class="row" style="padding-bottom: 30px;">
-                <div class="col-6">
-                  <a href="cloudiness.html">
-                  <img src="images/Fig3.png" class="visualization" alt="Cloudiness">
+              <div class="col-lg-6" style="padding: 30px;">
+                <div class="display-3">vs. Humidity</div>
+                  <a href="humidity.html">
+                  <img class="visualization" src="images/Fig2.png" alt="Humidity">
                   </a>
                 </div>
-                <div class="col-6">
-                  <a href="windspeed.html">
-                  <img src="images/Fig4.png" class="visualization" alt="Wind Speed">
-                    </a>
-                </div>
               </div>
+              <div class="row">
+                <div class="col-lg-6" style="padding: 30px;">
+                  <div class="display-3">vs. Cloudiness</div>
+                    <a href="cloudiness.html">
+                    <img class="visualization" src="images/Fig3.png" alt="Cloudiness">
+                    </a>
+                  </div>
+                  <div class="col-lg-6" style="padding: 30px;">
+                    <div class="display-3">vs. Wind Speed</div>
+                      <a href="windspeed.html">
+                      <img class="visualization" src="images/Fig4.png" 
+                      alt="Wind Speed">
+                      </a>
+                    </div>
+                  </div>  
+                </div>
+              </div> 
             </div>
           </div>
-        </div>
+        </div>  
       </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>  
   </body>
-  </html>
+</html>

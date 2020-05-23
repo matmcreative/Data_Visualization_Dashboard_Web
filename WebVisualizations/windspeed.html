@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Bootstrap Visualization</title>
   <link rel="stylesheet"
    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -25,8 +26,8 @@
             Plots
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="maxtep,html">Max Temperature</a>
-            <a class="dropdown-item" href="humidity.html.com">Humidity</a>
+            <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
             <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
             <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
           </div>
@@ -40,29 +41,53 @@
       </ul>
     </div>
   </nav>
-  <div class="container"> 
-    <div class="row">
-      <div class="col-md-8">        
-        <div class="container">
-          <div class="jumbotron">
-            <h2 class="display-4">Summary: Lattitude vs. X</h2>
-            <img src="images/Fig1.png" width="300" height="300" alt="Figure 1"style="float: left; margin: 3px 12px 3px 0px;">
-            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. 
-            <br>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. </p> 
-          </div>
-        </div>
+  <div class="container">
+
+  <div class="row">
+    <div class="col-lg-7 col-md-12">
+      <div class="box" style="padding-bottom: 10px; height:600px;">
+        <h2 class="display-2">Summary: Wind Speed</h2>
+        <img src="images/Fig4.png" style="width: 100%; height: 70%;" alt="Wind Speed Graph">
+        <p>Wind speed around the equator is generally slow. As we move north of the equator, the wind does seem to increase.  
+            However, it is not enough to conclude a correlation between wind speed and latitude. Other factors need to be observed.
+        </p>
       </div>
-      <div class="col-md-4">        
+    </div>
+    <div class="col-lg-5 col-md-12">
+      <div class="box">
+        <h3 class="display-3">Visualizations</h3>
         <div class="container">
-          <div class="jumbotron">
-            <h3 class="display-4">Visualizations</h3>
-            <img src="images/Fig1.png" width="100" height="100" alt="Figure 1">
-            <img src="images/Fig2.png" width="100" height="100" alt="Figure 2">
-            <img src="images/Fig3.png" width="100" height="100" alt="Figure 3">
-            <img src="images/Fig4.png" width="100" height="100" alt="Figure 4">
+          <div class="row" style="padding-bottom: 30px;">
+            <div class="col-6">
+              <a href="maxtemp.html">
+              <img src="images/Fig1.png" class="visualization" alt="Max Temperature">
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="humidity.html">
+              <img src="images/Fig2.png" class="visualization" alt="Humidity">
+              </a>
+            </div>
+            <div class="row" style="padding-bottom: 30px;">
+              <div class="col-6">
+                <a href="cloudiness.html">
+                <img src="images/Fig3.png" class="visualization" alt="Cloudiness">
+                </a>
+              </div>
+              <div class="col-6">
+                <a href="windspeed.html">
+                <img src="images/Fig4.png" style= "border:1px solid rgb(31, 104, 133)"class="visualization" alt="Wind Speed">
+                  </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+</body>
+</html>
