@@ -35,8 +35,13 @@ body {
   height: auto;
 }
 .divtable{
-  font-size: 14px;
+  align-content: center;
+  font-size: 15px;
   border-top-color: white; 
+  background-color: white;
+}
+.dataframe{
+  max-width: 100%;
 }
 .visualization{
   width: 100%;
