@@ -1,20 +1,34 @@
 body {
-    background-color:#ededed
+    background-color:#eeeeee
 }
 
 
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
+      background-color:white;
     }
-  }
+}
 .navbar-brand{
-    color:white;
-    background-color:lightseagreen;
+    background-color: #54b99f;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-left: 15px;
     padding-right: 15px;
 }
-.display-4{
+.display-2{
     font-size: 36px;
-    color:lightseagreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #54b99f;
+}
+.display-3{
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #54b99f;
+}
+.jumbotron{
+  background-color:white;
+  margin: 10px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
