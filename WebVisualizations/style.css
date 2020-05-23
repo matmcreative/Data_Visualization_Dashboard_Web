@@ -53,3 +53,4 @@ body {
   margin-bottom: 62px; 
   padding: 10px 20px 10px; 
 }
+tr:nth-child(even) {background-color: #cac9c9;}
