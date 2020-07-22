@@ -1,14 +1,12 @@
-# Web Design Challenge - Web Visualization Dashboard (Latitude)
+# Web Visualization Dashboard (Latitude)
 
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
-Creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
+Create a visualization dashboard website using [weather data](Resources/cities.csv).
 
-In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
+In building this dashboard, create individual pages for each plot and a means by which to navigate between them. These pages will contain the visualizations and their corresponding explanations. Include a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
 ### Website Requirements
-
-For reference, see the ["Screenshots" section](#screenshots) below.
 
 The website must consist of 7 pages total, including:
 
@@ -37,11 +35,7 @@ The website must, at the top of every page, have a navigation menu that:
 
 Finally, the website must be deployed to GitHub pages.
 
-When finished, submit to BootcampSpot the links to 1) the deployed app and 2) the GitHub repository.
 
-### Screenshots
-
-This section contains screenshots of each page that must be built, at varying screen widths. These are a guide; you can meet the requirements without having the pages look exactly like the below images.
 
 #### Landing page
 
@@ -70,8 +64,6 @@ Small screen:
 
 #### Visualization pages
 
-You'll build four of these, one for each visualization. Here's an example of one:
-
 Large screen:
 ![visualize page large screen](Images/visualize-lg.png)
 
@@ -86,6 +78,3 @@ Large screen:
 Small screen:
 ![nav menu small screen](Images/nav-sm.png)
 
-### Copyright
-
-Trilogy Education Services © 2019. All Rights Reserved.
